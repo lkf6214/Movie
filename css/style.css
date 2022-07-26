@@ -41,7 +41,8 @@ header {
 }
 
 header span {
-    bottom: 0px;
+    position: relative;
+    bottom: -5px;
 }
 
 header #snb {
