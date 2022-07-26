@@ -62,7 +62,7 @@ header .logo h1 a {
     color:#333;
 }
 
-header .logo h6 {
+header .logo h6 a {
     font: bold 10px/1 'Roboto Slab';
     color:rgb(104, 104, 104);;    
 }
@@ -90,6 +90,7 @@ header #gnb li a{
 
 header #gnb li a:hover{
     text-decoration: underline;
+
 }
 /* SNS */
 header .sns {
@@ -146,8 +147,8 @@ figure .text {
 figure .text p{
     font: normal 8vw/1 'Kalam';
     color: white;
+    text-shadow: 1px 1px 3px black;}
 
-}
 
 figure .text ul{
 display: flex;
@@ -172,7 +173,6 @@ figure .text ul li strong{
 }
 
 
-/* section */
 
 
 /* FOOTER */
@@ -252,6 +252,12 @@ header .text p {
     font-size: 15vw;
  }
 
+ figure .text ul #myAudio {
+    position: relative;
+    bottom: -28vh;
+    text-align: center;
+ }
+
 }
 figure .text ul #myAudio {
 height: 5vh;
@@ -262,3 +268,94 @@ opacity: 0.6;
 figure .text ul #myAudio:hover {
     opacity: 1;
 }
+
+/* FIGURE_PARTNER */
+.figure_partner figure .text p{
+    font: normal 7vw/1 'Kalam', 'Noto Serif KR', serif;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+/* FIGURE_SUPPORT */
+.figure_support figure .text p{
+    font: normal 7vw/1 'Kalam', 'Noto Serif KR', serif;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+.figure_support figure .text ul{
+display: flex;
+margin-top: 20px;
+}
+
+.figure_support figure .text ul li {
+width: 50vw;
+ margin: 0 5px;  
+ padding: 10px;
+ border: 1px solid #dadada; 
+ border-radius: 20px;
+ background-color: rgb(255, 255, 255, 0.5);
+ text-align: center;
+}
+
+
+.figure_support figure .text ul li i{
+    font-size: 50px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.figure_support figure .text ul li strong{
+    font: 20px/1 'Kalam', 'Noto Serif KR', serif;
+    color:  #333;
+    letter-spacing: 5px;
+}
+
+/* MENU_2_TEAM */
+.menu_2_team figure .text p{
+    color: rgb(84, 146, 238);
+    text-shadow: 1px 1px 3px black;}
+
+/* menu_3_challenge */
+.menu_3_challenge figure .text p{
+    color: rgb(152, 208, 171);
+    text-shadow: 1px 1px 3px black;}
+
+     /* .menu_3_challenge figure .text ul {
+        background-color: rgb(255, 255, 255, 0.5);
+    }  */
+
+    .menu_3_challenge figure .text ul .challenge_type{
+        width: 85vw;
+        margin: 0px;  
+        padding: 10px;
+        border: 1px solid #dadada; 
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255, 0.5);
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        }
+
+        .menu_3_challenge figure .text ul .challenge_type li{
+            font: normal 2vw/1 'Roboto Slab', serif; 
+            color: white;
+        }
+
+        .menu_3_challenge figure .text ul .challenge_type li a{
+            color: #333;
+
+        }
+
+        .menu_3_challenge figure .text ul .challenge_type li a:hover{
+            text-decoration: underline;
+        }
+
+
+/* menu_4_challenge */
+.menu_4_community figure .text p{
+    color: rgb(238, 84, 84);
+    text-shadow: 1px 1px 3px black;}

@@ -11,5 +11,3 @@ snbBtn.addEventListener("click", function() {
    }
 })
 
-
-
