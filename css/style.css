@@ -1,5 +1,6 @@
 /* FONT */
 @import url("https://fonts.googleapis.com/css2?family=Kalam&family=Noto+Serif+KR:wght@300&family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
 /* font-family: 'Kalam', cursive;
 font-family: 'Noto Serif KR', serif;
@@ -37,6 +38,10 @@ header {
     left: 0px;
     z-index: 2;
     background-color: rgb(255, 255, 255, 0.3);
+}
+
+header span {
+    bottom: 0px;
 }
 
 header #snb {
