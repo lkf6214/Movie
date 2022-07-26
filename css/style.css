@@ -291,13 +291,13 @@ margin-top: 20px;
 }
 
 .figure_support figure .text ul li {
-width: 50vw;
+width: 300px;
  margin: 0 5px;  
  padding: 10px;
  border: 1px solid #dadada; 
  border-radius: 20px;
  background-color: rgb(255, 255, 255, 0.5);
- text-align: center;
+ text-align: left;
 }
 
 
@@ -312,6 +312,11 @@ width: 50vw;
     color:  #333;
     letter-spacing: 5px;
 }
+
+/* MENU_1_ABOUT */
+.menu_1_about figure .text p{
+    color: rgb(245, 249, 231);
+    text-shadow: 1px 1px 3px black;}
 
 /* MENU_2_TEAM */
 .menu_2_team figure .text p{
